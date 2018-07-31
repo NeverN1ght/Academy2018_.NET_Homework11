@@ -53,10 +53,10 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button x:Name="Button" Click="LoadData" Content="LoadData" Grid.Column="1" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="150"/>
-        <Button Content="Create" Click="Create" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="30,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359"/>
-        <Button Content="Edit" Click="Update" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="217,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359"/>
-        <Button Content="Delete" Click="Delete" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="410,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359"/>
+        <Button x:Name="Button" Click="LoadData" Content="LoadData" Grid.Column="1" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="150" BorderBrush="Black" Background="Gray"/>
+        <Button Content="Create" Click="Create" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="30,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359" BorderBrush="Black" Background="Green"/>
+        <Button Content="Edit" Click="Update" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="217,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359" BorderBrush="Black" Background="CornflowerBlue"/>
+        <Button Content="Delete" Click="Delete" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="410,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359" BorderBrush="Black" Background="DarkRed"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="30,150,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="35"/>
         <TextBox x:Name="TextId" Grid.Column="1" HorizontalAlignment="Left" Margin="300,150,0,0" Text="{Binding Id}" VerticalAlignment="Top" Width="200" Height="35"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="30,220,0,0" Text="First name" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="35"/>
@@ -65,8 +65,8 @@
         <TextBox x:Name="TextLastName" Grid.Column="1" HorizontalAlignment="Left" Margin="300,290,0,0" Text="{Binding LastName}" VerticalAlignment="Top" Width="200" Height="35"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="30,360,0,0" Text="Birthdate" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="35"/>
         <TextBox x:Name="TextBirthdate" Grid.Column="1" HorizontalAlignment="Left" Margin="300,360,0,0" Text="{Binding Birthdate}" VerticalAlignment="Top" Width="200" Height="35"/>
-        <Button Content="Add" x:Name="AddButton" Click="Add" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="40,437,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359"/>
-        <Button Content="Save changes" x:Name="SaveButton" Click="Save" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="230,437,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359"/>
+        <Button Content="Add" x:Name="AddButton" Click="Add" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="40,437,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359" BorderBrush="Black" Background="Green"/>
+        <Button Content="Save changes" x:Name="SaveButton" Click="Save" Grid.Column="1" HorizontalAlignment="Left" Width="150" Margin="230,437,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.192,-1.359" BorderBrush="Black" Background="Green"/>
 
 
     </Grid>
